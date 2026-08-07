@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import type { Dictionary, Locale } from "@/dictionaries";
 import LocaleSwitcher from "./LocaleSwitcher";
 
@@ -45,13 +46,15 @@ export default function Header({
             : "border border-white/15 bg-charcoal/35 shadow-none backdrop-blur-md"
         }`}
       >
-        <a
-          href={`/${lang}`}
-          className={`text-lg font-extrabold uppercase tracking-heading transition-colors duration-500 ${
-            scrolled ? "text-ink" : "text-white"
-          }`}
-        >
-          Vizzoro
+        <a href={`/${lang}`} className="shrink-0">
+          <Image
+            src={scrolled ? "/logo-black.png" : "/logo-white.png"}
+            alt="Vizzoro"
+            width={135}
+            height={44}
+            priority
+            className="h-11 w-auto"
+          />
         </a>
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Main">
           {nav.map((item) => (

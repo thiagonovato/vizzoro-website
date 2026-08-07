@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import type { Dictionary } from "@/dictionaries";
 
 type VariantKey = "target" | "network";
@@ -72,8 +73,16 @@ export default function Hero({ dict }: { dict: Dictionary }) {
         <p className="text-sm font-semibold uppercase tracking-eyebrow text-white/70">
           {dict.hero.eyebrow}
         </p>
-        <h1 className="mt-6 text-5xl font-extrabold uppercase tracking-heading text-white md:text-7xl">
-          {dict.hero.title}
+        <h1 className="mt-6 flex justify-center">
+          <span className="sr-only">{dict.hero.title}</span>
+          <Image
+            src="/logo-white.png"
+            alt="Vizzoro"
+            width={520}
+            height={169}
+            priority
+            className="h-auto w-64 sm:w-80 md:w-[420px]"
+          />
         </h1>
         <div className="relative mx-auto mt-8 h-px w-40" aria-hidden="true">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-accent to-transparent blur-sm" />

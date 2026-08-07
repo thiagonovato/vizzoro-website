@@ -110,7 +110,10 @@
       "captchaError": "Não está certo, tente de novo."
     },
     "emailLabel": "Prefere e-mail direto?",
-    "email": "info@vizzoro.com"
+    "email": "info@vizzoro.com",
+    "phoneLabel": "Prefere ligar?",
+    "phone": "(941) 404-5588",
+    "phoneHref": "+19414045588"
   },
   "footer": {
     "tagline": "Criando software e sites desde 2000.",

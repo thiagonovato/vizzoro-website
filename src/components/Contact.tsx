@@ -197,6 +197,15 @@ export default function Contact({ dict }: { dict: Dictionary }) {
             {dict.contact.email}
           </a>
         </p>
+        <p className="mt-2 text-sm text-white/80">
+          {dict.contact.phoneLabel}{" "}
+          <a
+            href={`tel:${dict.contact.phoneHref}`}
+            className="font-semibold text-white underline underline-offset-4 transition hover:text-accent"
+          >
+            {dict.contact.phone}
+          </a>
+        </p>
       </div>
     </section>
   );

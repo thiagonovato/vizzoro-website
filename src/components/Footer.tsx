@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary, Locale } from "@/dictionaries";
 
 export default function Footer({
@@ -18,11 +19,14 @@ export default function Footer({
     <footer className="bg-charcoal text-white/80">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-3">
         <div>
-          <a
-            href={`/${lang}`}
-            className="text-lg font-extrabold uppercase tracking-heading text-white"
-          >
-            Vizzoro
+          <a href={`/${lang}`} className="inline-block">
+            <Image
+              src="/logo-white.png"
+              alt="Vizzoro"
+              width={196}
+              height={64}
+              className="h-16 w-auto"
+            />
           </a>
           <p className="mt-4 text-sm">{dict.footer.tagline}</p>
         </div>
@@ -51,6 +55,12 @@ export default function Footer({
             className="mt-4 block text-sm transition hover:text-accent"
           >
             {dict.contact.email}
+          </a>
+          <a
+            href={`tel:${dict.contact.phoneHref}`}
+            className="mt-2 block text-sm transition hover:text-accent"
+          >
+            {dict.contact.phone}
           </a>
         </div>
       </div>
