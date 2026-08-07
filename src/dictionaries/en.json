@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Vizzoro: Building Software & Websites Since 2000",
+    "description": "Vizzoro is a tech company building software and websites since 2000. Calm, careful engineering for businesses that value longevity."
+  },
+  "header": {
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "portfolio": "Work",
+      "contact": "Contact"
+    },
+    "cta": "Request Estimate"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "en": "EN",
+    "pt-BR": "PT"
+  },
+  "hero": {
+    "eyebrow": "Welcome to",
+    "title": "Vizzoro",
+    "subtitle": "We design and build software and websites that last, with the calm that comes from doing it for over two decades.",
+    "primaryCta": "Start a Project",
+    "secondaryCta": "See Our Work"
+  },
+  "about": {
+    "eyebrow": "Who we are",
+    "title": "A small team with a long memory",
+    "paragraphs": [
+      "Vizzoro is a tech company founded in 2000. We have watched the web grow up, and we grew with it, one careful project at a time.",
+      "We work with businesses that want software built to last: clear scope, honest timelines, and code that the next developer will thank you for.",
+      "No hype, no rush. Just steady, well-made work."
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services",
+    "subtitle": "Four things, done well.",
+    "learnMore": "Learn More",
+    "items": [
+      {
+        "slug": "custom-software",
+        "title": "Custom Software",
+        "description": "Internal tools, dashboards and platforms shaped around how your business actually works, not the other way around."
+      },
+      {
+        "slug": "websites",
+        "title": "Websites",
+        "description": "Fast, accessible, well-crafted websites that represent your company with clarity and load in a blink."
+      },
+      {
+        "slug": "ongoing-care",
+        "title": "Ongoing Care",
+        "description": "Maintenance, improvements and honest advice for the long run. Most of our clients have been with us for years."
+      },
+      {
+        "slug": "seo-local-visibility",
+        "title": "SEO & Local Visibility",
+        "description": "Search engine optimization and Google Business Profile management, so customers find you first on Search and Maps."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Selected work",
+    "title": "A few things we have built",
+    "subtitle": "A few of the sites we have built.",
+    "visitLabel": "Visit Site",
+    "items": [
+      {
+        "slug": "crsurfaces",
+        "title": "CR Surfaces",
+        "category": "Business Website",
+        "url": "https://crsurfaces.com"
+      },
+      {
+        "slug": "bravowoods",
+        "title": "Bravo Woods",
+        "category": "Business Website",
+        "url": "https://bravowoods.web.app"
+      },
+      {
+        "slug": "vncompliance",
+        "title": "VN Compliance",
+        "category": "Business Website",
+        "url": "https://vncompliance.com"
+      },
+      {
+        "slug": "thiagonovato",
+        "title": "Thiago Novato",
+        "category": "Developer Portfolio",
+        "url": "https://thiagonovato.dev"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Tell us about your project",
+    "subtitle": "A short message is enough. We usually reply within one business day.",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "What would you like to build?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent. We usually reply within one business day.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "captchaLabel": "Quick human check",
+      "captchaPlaceholder": "Your answer",
+      "captchaError": "That is not quite right, try again."
+    },
+    "emailLabel": "Prefer email directly?",
+    "email": "info@vizzoro.com"
+  },
+  "footer": {
+    "tagline": "Building software and websites since 2000.",
+    "navTitle": "Navigate",
+    "contactTitle": "Contact",
+    "copyright": "© {year} Vizzoro. All rights reserved."
+  }
+}

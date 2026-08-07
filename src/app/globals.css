@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* Vizzoro palette, see specs/design.md */
+  --color-accent: #e59153;
+  --color-ink: #6c8186;
+  --color-body: #777777;
+  --color-surface: #f7f7f7;
+  --color-charcoal: #303133;
+
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  /* Wide letter-spacings used across headings, eyebrows and buttons */
+  --tracking-heading: 0.1em;
+  --tracking-sub: 0.05em;
+  --tracking-eyebrow: 0.2em;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-body);
+  font-size: 18px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Markdown-rendered service page body, see src/lib/services.ts */
+.service-content h2 {
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-sub);
+  color: var(--color-ink);
+}
+.service-content p {
+  margin-top: 1rem;
+  color: var(--color-body);
+}
+.service-content ul {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+  color: var(--color-body);
+}
+.service-content li {
+  margin-top: 0.5rem;
+}
+.service-content li::marker {
+  color: var(--color-accent);
+}

@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Vizzoro: Criando software e sites desde 2000",
+    "description": "A Vizzoro é uma empresa de tecnologia que cria software e sites desde 2000. Engenharia calma e cuidadosa para negócios que valorizam longevidade."
+  },
+  "header": {
+    "nav": {
+      "about": "Sobre",
+      "services": "Serviços",
+      "portfolio": "Trabalhos",
+      "contact": "Contato"
+    },
+    "cta": "Pedir Orçamento"
+  },
+  "localeSwitcher": {
+    "label": "Idioma",
+    "en": "EN",
+    "pt-BR": "PT"
+  },
+  "hero": {
+    "eyebrow": "Bem-vindo à",
+    "title": "Vizzoro",
+    "subtitle": "Projetamos e construímos software e sites feitos para durar, com a calma de quem faz isso há mais de duas décadas.",
+    "primaryCta": "Começar um Projeto",
+    "secondaryCta": "Ver Nosso Trabalho"
+  },
+  "about": {
+    "eyebrow": "Quem somos",
+    "title": "Um time pequeno com memória longa",
+    "paragraphs": [
+      "A Vizzoro é uma empresa de tecnologia fundada em 2000. Vimos a web crescer, e crescemos com ela, um projeto cuidadoso de cada vez.",
+      "Trabalhamos com empresas que querem software feito para durar: escopo claro, prazos honestos e código que o próximo desenvolvedor vai agradecer.",
+      "Sem hype, sem pressa. Apenas trabalho constante e bem feito."
+    ]
+  },
+  "services": {
+    "eyebrow": "O que fazemos",
+    "title": "Serviços",
+    "subtitle": "Quatro coisas, bem feitas.",
+    "learnMore": "Saiba Mais",
+    "items": [
+      {
+        "slug": "custom-software",
+        "title": "Software Sob Medida",
+        "description": "Ferramentas internas, dashboards e plataformas moldados à forma como o seu negócio realmente funciona, não o contrário."
+      },
+      {
+        "slug": "websites",
+        "title": "Sites",
+        "description": "Sites rápidos, acessíveis e bem construídos, que representam a sua empresa com clareza e carregam num piscar de olhos."
+      },
+      {
+        "slug": "ongoing-care",
+        "title": "Cuidado Contínuo",
+        "description": "Manutenção, melhorias e conselhos honestos para o longo prazo. A maioria dos nossos clientes está conosco há anos."
+      },
+      {
+        "slug": "seo-local-visibility",
+        "title": "SEO & Visibilidade Local",
+        "description": "Otimização para buscadores e gestão do seu perfil no Google Business, para clientes te encontrarem primeiro na Busca e no Maps."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Trabalhos selecionados",
+    "title": "Algumas coisas que construímos",
+    "subtitle": "Alguns dos sites que já construímos.",
+    "visitLabel": "Visitar Site",
+    "items": [
+      {
+        "slug": "crsurfaces",
+        "title": "CR Surfaces",
+        "category": "Site Empresarial",
+        "url": "https://crsurfaces.com"
+      },
+      {
+        "slug": "bravowoods",
+        "title": "Bravo Woods",
+        "category": "Site Empresarial",
+        "url": "https://bravowoods.web.app"
+      },
+      {
+        "slug": "vncompliance",
+        "title": "VN Compliance",
+        "category": "Site Empresarial",
+        "url": "https://vncompliance.com"
+      },
+      {
+        "slug": "thiagonovato",
+        "title": "Thiago Novato",
+        "category": "Portfólio de Desenvolvedor",
+        "url": "https://thiagonovato.dev"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Fale conosco",
+    "title": "Conte-nos sobre o seu projeto",
+    "subtitle": "Uma mensagem curta é suficiente. Normalmente respondemos em até um dia útil.",
+    "form": {
+      "name": "Seu nome",
+      "email": "Seu e-mail",
+      "message": "O que você gostaria de construir?",
+      "submit": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada. Normalmente respondemos em até um dia útil.",
+      "error": "Algo deu errado. Tente de novo ou nos escreva direto por e-mail.",
+      "captchaLabel": "Verificação rápida",
+      "captchaPlaceholder": "Sua resposta",
+      "captchaError": "Não está certo, tente de novo."
+    },
+    "emailLabel": "Prefere e-mail direto?",
+    "email": "info@vizzoro.com"
+  },
+  "footer": {
+    "tagline": "Criando software e sites desde 2000.",
+    "navTitle": "Navegação",
+    "contactTitle": "Contato",
+    "copyright": "© {year} Vizzoro. Todos os direitos reservados."
+  }
+}
