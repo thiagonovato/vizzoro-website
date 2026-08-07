@@ -72,12 +72,9 @@ export async function POST(request: Request) {
   const resend = new Resend(apiKey);
 
   try {
-    // Shared Resend sender until vizzoro.com is verified as a sending
-    // domain. Swap to something like "Vizzoro <notifications@vizzoro.com>"
-    // once that's done.
     const { error } = await resend.emails.send({
-      from: "Vizzoro <onboarding@resend.dev>",
-      to: "info@vizzoro.com",
+      from: "Vizzoro <noreply@vizzoro.com>",
+      to: "thiagonovato@gmail.com",
       replyTo: email,
       subject: `New inquiry from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
