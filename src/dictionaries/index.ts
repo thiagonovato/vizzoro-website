@@ -1,7 +1,8 @@
 import en from "./en.json";
 import ptBR from "./pt-BR.json";
+import es from "./es.json";
 
-export const locales = ["en", "pt-BR"] as const;
+export const locales = ["en", "pt-BR", "es"] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "en";
 
@@ -10,6 +11,7 @@ export type Dictionary = typeof en;
 const dictionaries: Record<Locale, Dictionary> = {
   en,
   "pt-BR": ptBR,
+  es,
 };
 
 export function isLocale(value: string): value is Locale {

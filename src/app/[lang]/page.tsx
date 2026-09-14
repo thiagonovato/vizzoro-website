@@ -3,12 +3,9 @@ import { getDictionary, isLocale, locales } from "@/dictionaries";
 import { organizationJsonLd } from "@/lib/seo";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Services from "@/components/Services";
-import Portfolio from "@/components/Portfolio";
+import ProductSections from "@/components/ProductSections";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import RevealFooter from "@/components/RevealFooter";
 
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -30,13 +27,12 @@ export default async function Home({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd()) }}
       />
       <Header dict={dict} lang={lang} />
-      <RevealFooter footer={<Footer dict={dict} lang={lang} />}>
+      <main>
         <Hero dict={dict} />
-        <About dict={dict} />
-        <Services dict={dict} lang={lang} />
-        <Portfolio dict={dict} />
+        <ProductSections dict={dict} lang={lang} />
         <Contact dict={dict} />
-      </RevealFooter>
+      </main>
+      <Footer dict={dict} lang={lang} />
     </>
   );
 }

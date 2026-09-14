@@ -21,6 +21,7 @@ export function buildMetadata(lang: Locale, dict: Dictionary): Metadata {
       languages: {
         en: `${BASE_URL}/en`,
         "pt-BR": `${BASE_URL}/pt-BR`,
+        es: `${BASE_URL}/es`,
         "x-default": `${BASE_URL}/en`,
       },
     },
@@ -30,13 +31,13 @@ export function buildMetadata(lang: Locale, dict: Dictionary): Metadata {
       siteName: "Vizzoro",
       title: dict.metadata.title,
       description: dict.metadata.description,
-      locale: lang === "pt-BR" ? "pt_BR" : "en_US",
+      locale: lang === "pt-BR" ? "pt_BR" : lang === "es" ? "es_ES" : "en_US",
       images: [
         {
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Vizzoro: Building Software & Websites Since 2000",
+          alt: "Vizzoro material visualization platform",
         },
       ],
     },
@@ -57,7 +58,7 @@ export function organizationJsonLd(): Record<string, unknown> {
     url: BASE_URL,
     logo: `${BASE_URL}/og-image.png`,
     foundingDate: "2000",
-    description: "Tech company building software and websites since 2000.",
+    description: "Material visualization platform for retailers and manufacturers.",
     email: "info@vizzoro.com",
   };
 }

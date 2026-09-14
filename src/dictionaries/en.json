@@ -1,124 +1,14 @@
 {
-  "metadata": {
-    "title": "Vizzoro: Building Software & Websites Since 2000",
-    "description": "Vizzoro is a tech company building software and websites since 2000. Calm, careful engineering for businesses that value longevity."
-  },
-  "header": {
-    "nav": {
-      "about": "About",
-      "services": "Services",
-      "portfolio": "Work",
-      "contact": "Contact"
-    },
-    "cta": "Request Estimate"
-  },
-  "localeSwitcher": {
-    "label": "Language",
-    "en": "EN",
-    "pt-BR": "PT"
-  },
-  "hero": {
-    "eyebrow": "Welcome to",
-    "title": "Vizzoro",
-    "subtitle": "We design and build software and websites that last, with the calm that comes from doing it for over two decades.",
-    "primaryCta": "Start a Project",
-    "secondaryCta": "See Our Work"
-  },
-  "about": {
-    "eyebrow": "Who we are",
-    "title": "A small team with a long memory",
-    "paragraphs": [
-      "Vizzoro is a tech company founded in 2000. We have watched the web grow up, and we grew with it, one careful project at a time.",
-      "We work with businesses that want software built to last: clear scope, honest timelines, and code that the next developer will thank you for.",
-      "No hype, no rush. Just steady, well-made work."
-    ]
-  },
-  "services": {
-    "eyebrow": "What we do",
-    "title": "Services",
-    "subtitle": "Four things, done well.",
-    "learnMore": "Learn More",
-    "items": [
-      {
-        "slug": "custom-software",
-        "title": "Custom Software",
-        "description": "Internal tools, dashboards and platforms shaped around how your business actually works, not the other way around."
-      },
-      {
-        "slug": "websites",
-        "title": "Websites",
-        "description": "Fast, accessible, well-crafted websites that represent your company with clarity and load in a blink."
-      },
-      {
-        "slug": "ongoing-care",
-        "title": "Ongoing Care",
-        "description": "Maintenance, improvements and honest advice for the long run. Most of our clients have been with us for years."
-      },
-      {
-        "slug": "seo-local-visibility",
-        "title": "SEO & Local Visibility",
-        "description": "Search engine optimization and Google Business Profile management, so customers find you first on Search and Maps."
-      }
-    ]
-  },
-  "portfolio": {
-    "eyebrow": "Selected work",
-    "title": "A few things we have built",
-    "subtitle": "A few of the sites we have built.",
-    "visitLabel": "Visit Site",
-    "items": [
-      {
-        "slug": "crsurfaces",
-        "title": "CR Surfaces",
-        "category": "Business Website",
-        "url": "https://crsurfaces.com"
-      },
-      {
-        "slug": "bravowoods",
-        "title": "Bravo Woods",
-        "category": "Business Website",
-        "url": "https://bravowoods.web.app"
-      },
-      {
-        "slug": "vncompliance",
-        "title": "VN Compliance",
-        "category": "Business Website",
-        "url": "https://vncompliance.com"
-      },
-      {
-        "slug": "thiagonovato",
-        "title": "Thiago Novato",
-        "category": "Developer Portfolio",
-        "url": "https://thiagonovato.dev"
-      }
-    ]
-  },
-  "contact": {
-    "eyebrow": "Get in touch",
-    "title": "Tell us about your project",
-    "subtitle": "A short message is enough. We usually reply within one business day.",
-    "form": {
-      "name": "Your name",
-      "email": "Your email",
-      "message": "What would you like to build?",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent. We usually reply within one business day.",
-      "error": "Something went wrong. Please try again or email us directly.",
-      "captchaLabel": "Quick human check",
-      "captchaPlaceholder": "Your answer",
-      "captchaError": "That is not quite right, try again."
-    },
-    "emailLabel": "Prefer email directly?",
-    "email": "info@vizzoro.com",
-    "phoneLabel": "Prefer to call?",
-    "phone": "(941) 404-5588",
-    "phoneHref": "+19414045588"
-  },
-  "footer": {
-    "tagline": "Building software and websites since 2000.",
-    "navTitle": "Navigate",
-    "contactTitle": "Contact",
-    "copyright": "© {year} Vizzoro. All rights reserved."
-  }
+  "metadata": {"title":"Vizzoro | See every material in your space","description":"Let shoppers visualize your flooring, paint, countertops and surfaces in their own space, directly on your website."},
+  "header": {"mainLabel":"Main navigation","mobileLabel":"Mobile navigation","openMenu":"Open menu","closeMenu":"Close menu","nav":{"product":"Product","materials":"Materials","how":"How it works","pricing":"Pricing"},"cta":"Join the pilot"},
+  "localeSwitcher": {"label":"Language","en":"EN","pt-BR":"PT","es":"ES"},
+  "hero": {"eyebrow":"Your materials. Their home.","title":"Let them see the possibility.","subtitle":"Bring your catalog into your customers' spaces. Vizzoro turns a room photo into a confident purchase decision, right on your website.","primaryCta":"Explore the experience","secondaryCta":"See how it works","note":"No app download · Built for every screen","beforeAlt":"Contemporary room with natural oak flooring","afterAlt":"Contemporary room with light limestone flooring","stone":"Limestone","oak":"Natural oak","detectedFloor":"Floor detected","compareLabel":"Compare limestone and natural oak flooring","drag":"Drag to compare","powered":"Powered by Vizzoro"},
+  "experience": {"eyebrow":"From photo to possibility","title":"One room. A catalog of new perspectives.","subtitle":"Shoppers move from uncertainty to clarity in a few simple moments, without leaving the product page.","steps":[{"title":"Capture the space","description":"Upload a photo or use a ready-made room. The experience works across phone, tablet and desktop."},{"title":"Understand the surfaces","description":"Vizzoro identifies the room geometry and preserves furniture, perspective and natural light."},{"title":"Explore the catalog","description":"Apply, compare and save real products from your catalog, then move directly toward a quote or purchase."}]},
+  "materials": {"eyebrow":"Built around real materials","title":"From a single surface to the whole room.","subtitle":"Each material has its own geometry, scale and light. We develop and validate every category independently.","items":[{"title":"Flooring","description":"Planks, tiles and surfaces aligned to the room perspective.","status":"Pilot","available":true},{"title":"Paint","description":"Wall colors that preserve light, shade and architectural detail.","status":"In development","available":false},{"title":"Countertops","description":"Stone and engineered surfaces with realistic scale and veining.","status":"Planned","available":false},{"title":"Tile","description":"Wall and floor tile with pattern, orientation and grout control.","status":"Planned","available":false}]},
+  "platform": {"eyebrow":"A platform for your business","title":"Your catalog. Your brand. Your insights.","subtitle":"Manage the visual experience without depending on a developer for every update.","previewAlt":"Illustration of the Vizzoro catalog dashboard","activity":"Product engagement","items":[{"title":"Catalog management","description":"Organize products, categories, materials, dimensions and finishes from one place."},{"title":"Website integration","description":"Authorize your domain, customize the experience and add it to your website with a small snippet."},{"title":"Useful analytics","description":"See what shoppers try, compare and select, with events tied to real product interest."}]},
+  "integration": {"eyebrow":"Made to fit in","title":"A visualizer that feels native to your website.","subtitle":"Add Vizzoro to a product page without sending shoppers somewhere else. Match the experience to your brand and language.","copyLabel":"Copy integration example","copy":"One line","features":["Custom branding","Authorized domains","EN, PT-BR and ES","Mobile ready"]},
+  "pricing": {"eyebrow":"Pilot pricing","title":"Start small. Learn from every room.","subtitle":"Early plans are designed for businesses validating visualization with their own catalog. Final limits will follow real production benchmarks.","note":"Prices shown in USD. Pilot availability and limits are subject to validation before launch.","plans":[{"name":"Starter","period":" / month","description":"For a focused catalog on one website.","badge":"","features":["1 website","Up to 100 products","500 completed visualizations","Email support"],"cta":"Join the waitlist"},{"name":"Growth","period":" / month","description":"For growing catalogs and a stronger customer journey.","badge":"Most popular","features":["1 website","Up to 500 products","2,000 completed visualizations","Analytics and team access"],"cta":"Join the pilot"},{"name":"Business","period":" / month","description":"For larger catalogs and multiple digital experiences.","badge":"","features":["Up to 3 websites","Up to 2,000 products","5,000 completed visualizations","Priority support"],"cta":"Talk to us"}]},
+  "faq": {"eyebrow":"Questions, answered","title":"Before you picture it.","items":[{"question":"Can shoppers use their own photos?","answer":"Yes. The visualizer is designed for personal room photos and can also offer curated sample rooms for quick exploration."},{"question":"Does Vizzoro work with my own catalog?","answer":"Yes. Your team manages the products, textures, colors and specifications available in the experience."},{"question":"Which materials are available?","answer":"Flooring is the first category entering the pilot. Paint, countertops and tile will be released only after each category reaches its own quality standard."},{"question":"Will the visualizer match my website?","answer":"Yes. Branding, language and calls to action can be configured so the experience feels connected to your store."}]},
+  "contact": {"eyebrow":"Early access","title":"Bring your catalog into the room.","subtitle":"Tell us what you sell and where your catalog lives. We will reply with the best path into the pilot.","form":{"name":"Your name","email":"Work email","message":"Tell us about your catalog and website","submit":"Request early access","sending":"Sending...","success":"Your request is in. We will be in touch soon.","error":"Something went wrong. Please try again or email us directly.","captchaLabel":"Quick human check","captchaPlaceholder":"Answer","captchaError":"That answer is not correct. Please try again."},"emailLabel":"Prefer email?","email":"info@vizzoro.com","phoneLabel":"Prefer to call?","phone":"(941) 404-5588","phoneHref":"+19414045588"},
+  "footer": {"tagline":"See every material in a whole new space.","navTitle":"Explore","contactTitle":"Contact","copyright":"© {year} Vizzoro. All rights reserved."}
 }

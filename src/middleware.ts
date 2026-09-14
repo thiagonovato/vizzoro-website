@@ -8,6 +8,7 @@ function negotiateLocale(request: NextRequest): string {
     .map((part) => part.split(";")[0].trim().toLowerCase());
   for (const tag of preferred) {
     if (tag.startsWith("pt")) return "pt-BR";
+    if (tag.startsWith("es")) return "es";
     if (tag.startsWith("en")) return defaultLocale;
   }
   return defaultLocale;

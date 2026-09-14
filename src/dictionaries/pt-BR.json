@@ -1,124 +1,14 @@
 {
-  "metadata": {
-    "title": "Vizzoro: Criando software e sites desde 2000",
-    "description": "A Vizzoro é uma empresa de tecnologia que cria software e sites desde 2000. Engenharia calma e cuidadosa para negócios que valorizam longevidade."
-  },
-  "header": {
-    "nav": {
-      "about": "Sobre",
-      "services": "Serviços",
-      "portfolio": "Trabalhos",
-      "contact": "Contato"
-    },
-    "cta": "Pedir Orçamento"
-  },
-  "localeSwitcher": {
-    "label": "Idioma",
-    "en": "EN",
-    "pt-BR": "PT"
-  },
-  "hero": {
-    "eyebrow": "Bem-vindo à",
-    "title": "Vizzoro",
-    "subtitle": "Projetamos e construímos software e sites feitos para durar, com a calma de quem faz isso há mais de duas décadas.",
-    "primaryCta": "Começar um Projeto",
-    "secondaryCta": "Ver Nosso Trabalho"
-  },
-  "about": {
-    "eyebrow": "Quem somos",
-    "title": "Um time pequeno com memória longa",
-    "paragraphs": [
-      "A Vizzoro é uma empresa de tecnologia fundada em 2000. Vimos a web crescer, e crescemos com ela, um projeto cuidadoso de cada vez.",
-      "Trabalhamos com empresas que querem software feito para durar: escopo claro, prazos honestos e código que o próximo desenvolvedor vai agradecer.",
-      "Sem hype, sem pressa. Apenas trabalho constante e bem feito."
-    ]
-  },
-  "services": {
-    "eyebrow": "O que fazemos",
-    "title": "Serviços",
-    "subtitle": "Quatro coisas, bem feitas.",
-    "learnMore": "Saiba Mais",
-    "items": [
-      {
-        "slug": "custom-software",
-        "title": "Software Sob Medida",
-        "description": "Ferramentas internas, dashboards e plataformas moldados à forma como o seu negócio realmente funciona, não o contrário."
-      },
-      {
-        "slug": "websites",
-        "title": "Sites",
-        "description": "Sites rápidos, acessíveis e bem construídos, que representam a sua empresa com clareza e carregam num piscar de olhos."
-      },
-      {
-        "slug": "ongoing-care",
-        "title": "Cuidado Contínuo",
-        "description": "Manutenção, melhorias e conselhos honestos para o longo prazo. A maioria dos nossos clientes está conosco há anos."
-      },
-      {
-        "slug": "seo-local-visibility",
-        "title": "SEO & Visibilidade Local",
-        "description": "Otimização para buscadores e gestão do seu perfil no Google Business, para clientes te encontrarem primeiro na Busca e no Maps."
-      }
-    ]
-  },
-  "portfolio": {
-    "eyebrow": "Trabalhos selecionados",
-    "title": "Algumas coisas que construímos",
-    "subtitle": "Alguns dos sites que já construímos.",
-    "visitLabel": "Visitar Site",
-    "items": [
-      {
-        "slug": "crsurfaces",
-        "title": "CR Surfaces",
-        "category": "Site Empresarial",
-        "url": "https://crsurfaces.com"
-      },
-      {
-        "slug": "bravowoods",
-        "title": "Bravo Woods",
-        "category": "Site Empresarial",
-        "url": "https://bravowoods.web.app"
-      },
-      {
-        "slug": "vncompliance",
-        "title": "VN Compliance",
-        "category": "Site Empresarial",
-        "url": "https://vncompliance.com"
-      },
-      {
-        "slug": "thiagonovato",
-        "title": "Thiago Novato",
-        "category": "Portfólio de Desenvolvedor",
-        "url": "https://thiagonovato.dev"
-      }
-    ]
-  },
-  "contact": {
-    "eyebrow": "Fale conosco",
-    "title": "Conte-nos sobre o seu projeto",
-    "subtitle": "Uma mensagem curta é suficiente. Normalmente respondemos em até um dia útil.",
-    "form": {
-      "name": "Seu nome",
-      "email": "Seu e-mail",
-      "message": "O que você gostaria de construir?",
-      "submit": "Enviar Mensagem",
-      "sending": "Enviando...",
-      "success": "Mensagem enviada. Normalmente respondemos em até um dia útil.",
-      "error": "Algo deu errado. Tente de novo ou nos escreva direto por e-mail.",
-      "captchaLabel": "Verificação rápida",
-      "captchaPlaceholder": "Sua resposta",
-      "captchaError": "Não está certo, tente de novo."
-    },
-    "emailLabel": "Prefere e-mail direto?",
-    "email": "info@vizzoro.com",
-    "phoneLabel": "Prefere ligar?",
-    "phone": "(941) 404-5588",
-    "phoneHref": "+19414045588"
-  },
-  "footer": {
-    "tagline": "Criando software e sites desde 2000.",
-    "navTitle": "Navegação",
-    "contactTitle": "Contato",
-    "copyright": "© {year} Vizzoro. Todos os direitos reservados."
-  }
+  "metadata": {"title":"Vizzoro | Veja cada material no seu ambiente","description":"Permita que seus clientes visualizem pisos, tintas, bancadas e superfícies no próprio ambiente, diretamente no seu website."},
+  "header": {"mainLabel":"Navegação principal","mobileLabel":"Navegação mobile","openMenu":"Abrir menu","closeMenu":"Fechar menu","nav":{"product":"Produto","materials":"Materiais","how":"Como funciona","pricing":"Planos"},"cta":"Participar do piloto"},
+  "localeSwitcher": {"label":"Idioma","en":"EN","pt-BR":"PT","es":"ES"},
+  "hero": {"eyebrow":"Seus materiais. A casa deles.","title":"Deixe seu cliente ver a possibilidade.","subtitle":"Leve seu catálogo para os ambientes dos seus clientes. A Vizzoro transforma a foto de um espaço em uma decisão de compra segura, dentro do seu website.","primaryCta":"Explorar a experiência","secondaryCta":"Ver como funciona","note":"Sem baixar aplicativo · Feito para qualquer tela","beforeAlt":"Ambiente contemporâneo com piso de carvalho natural","afterAlt":"Ambiente contemporâneo com piso de pedra calcária clara","stone":"Pedra calcária","oak":"Carvalho natural","detectedFloor":"Piso identificado","compareLabel":"Comparar piso de pedra calcária e carvalho natural","drag":"Arraste para comparar","powered":"Tecnologia Vizzoro"},
+  "experience": {"eyebrow":"Da foto à possibilidade","title":"Um ambiente. Um catálogo de novas perspectivas.","subtitle":"O cliente passa da dúvida para a clareza em poucos momentos, sem sair da página do produto.","steps":[{"title":"Fotografe o ambiente","description":"Envie uma foto ou escolha um ambiente pronto. A experiência funciona no celular, tablet e computador."},{"title":"Entenda as superfícies","description":"A Vizzoro identifica a geometria e preserva móveis, perspectiva e iluminação natural."},{"title":"Explore o catálogo","description":"Aplique, compare e salve produtos reais do seu catálogo, depois avance para um orçamento ou compra."}]},
+  "materials": {"eyebrow":"Criado para materiais reais","title":"De uma superfície ao ambiente completo.","subtitle":"Cada material possui geometria, escala e comportamento de luz próprios. Desenvolvemos e validamos cada categoria separadamente.","items":[{"title":"Pisos","description":"Réguas, placas e superfícies alinhadas à perspectiva do ambiente.","status":"Piloto","available":true},{"title":"Tintas","description":"Cores de parede que preservam luz, sombra e detalhes arquitetônicos.","status":"Em desenvolvimento","available":false},{"title":"Bancadas","description":"Pedras e superfícies industrializadas com escala e veios realistas.","status":"Planejado","available":false},{"title":"Revestimentos","description":"Paredes e pisos com controle de padrão, orientação e rejunte.","status":"Planejado","available":false}]},
+  "platform": {"eyebrow":"Uma plataforma para o seu negócio","title":"Seu catálogo. Sua marca. Seus dados.","subtitle":"Gerencie a experiência visual sem depender de um desenvolvedor para cada atualização.","previewAlt":"Ilustração do painel de catálogo da Vizzoro","activity":"Interesse em produtos","items":[{"title":"Gestão de catálogo","description":"Organize produtos, categorias, materiais, dimensões e acabamentos em um só lugar."},{"title":"Integração com o website","description":"Autorize seu domínio, personalize a experiência e adicione-a ao website com um pequeno código."},{"title":"Dados úteis","description":"Veja o que os clientes experimentam, comparam e selecionam, com eventos ligados ao interesse real nos produtos."}]},
+  "integration": {"eyebrow":"Feito para se integrar","title":"Um visualizador que parece parte do seu website.","subtitle":"Adicione a Vizzoro à página do produto sem enviar o cliente para outro lugar. Combine a experiência com sua marca e idioma.","copyLabel":"Copiar exemplo de integração","copy":"Uma linha","features":["Marca personalizada","Domínios autorizados","EN, PT-BR e ES","Pronto para mobile"]},
+  "pricing": {"eyebrow":"Preço do piloto","title":"Comece pequeno. Aprenda com cada ambiente.","subtitle":"Os planos iniciais foram pensados para empresas validarem a visualização com o próprio catálogo. Os limites finais seguirão medições reais de produção.","note":"Preços em reais brasileiros. Disponibilidade e limites do piloto dependem de validação antes do lançamento.","plans":[{"name":"Starter","period":" / mês","description":"Para um catálogo focado em um website.","badge":"","features":["1 website","Até 100 produtos","500 visualizações concluídas","Suporte por e-mail"],"cta":"Entrar na lista"},{"name":"Growth","period":" / mês","description":"Para catálogos em crescimento e uma jornada mais completa.","badge":"Mais popular","features":["1 website","Até 500 produtos","2.000 visualizações concluídas","Analytics e acesso da equipe"],"cta":"Participar do piloto"},{"name":"Business","period":" / mês","description":"Para grandes catálogos e múltiplas experiências digitais.","badge":"","features":["Até 3 websites","Até 2.000 produtos","5.000 visualizações concluídas","Suporte prioritário"],"cta":"Falar conosco"}]},
+  "faq": {"eyebrow":"Dúvidas respondidas","title":"Antes de visualizar.","items":[{"question":"O cliente pode usar a própria foto?","answer":"Sim. O visualizador foi pensado para fotos pessoais do ambiente e também pode oferecer cenas prontas para uma experiência rápida."},{"question":"A Vizzoro funciona com meu próprio catálogo?","answer":"Sim. Sua equipe gerencia os produtos, texturas, cores e especificações disponíveis na experiência."},{"question":"Quais materiais estão disponíveis?","answer":"Pisos são a primeira categoria a entrar no piloto. Tintas, bancadas e revestimentos serão liberados somente quando cada categoria atingir seu padrão de qualidade."},{"question":"O visualizador vai combinar com meu website?","answer":"Sim. Marca, idioma e chamadas para ação podem ser configurados para integrar a experiência à sua loja."}]},
+  "contact": {"eyebrow":"Acesso antecipado","title":"Leve seu catálogo para dentro do ambiente.","subtitle":"Conte o que você vende e onde está seu catálogo. Vamos responder com o melhor caminho para o piloto.","form":{"name":"Seu nome","email":"E-mail profissional","message":"Conte sobre seu catálogo e website","submit":"Pedir acesso antecipado","sending":"Enviando...","success":"Recebemos seu pedido. Entraremos em contato em breve.","error":"Algo deu errado. Tente novamente ou envie um e-mail diretamente.","captchaLabel":"Verificação rápida","captchaPlaceholder":"Resposta","captchaError":"Essa resposta não está correta. Tente novamente."},"emailLabel":"Prefere e-mail?","email":"info@vizzoro.com","phoneLabel":"Prefere ligar?","phone":"(941) 404-5588","phoneHref":"+19414045588"},
+  "footer": {"tagline":"Veja cada material em um espaço totalmente novo.","navTitle":"Explore","contactTitle":"Contato","copyright":"© {year} Vizzoro. Todos os direitos reservados."}
 }
