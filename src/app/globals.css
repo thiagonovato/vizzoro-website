@@ -26,6 +26,8 @@ body { margin: 0; background: var(--color-bone); color: var(--color-ink); font-f
 .button-secondary { border: 1px solid color-mix(in srgb, var(--color-ink) 20%, transparent); color: var(--color-ink); padding: 14px 21px; }
 .button-secondary:hover { border-color: var(--color-ink); }
 .button-small { background: var(--color-ink); color: var(--color-bone); padding: 12px 18px; }
+.button-app { border: 1px solid color-mix(in srgb, var(--color-ink) 24%, transparent); background: transparent; color: var(--color-ink); }
+.button-app:hover { border-color: var(--color-ink); background: var(--color-sage); }
 .menu-button { display: flex; height: 42px; width: 42px; flex-direction: column; align-items: center; justify-content: center; gap: 4px; border-radius: 999px; background: var(--color-ink); }
 .menu-button span { height: 1px; width: 17px; background: var(--color-bone); transition: transform .25s, opacity .25s; }
 @media (min-width: 1024px) { .menu-button { display: none; } }
