@@ -36,7 +36,9 @@ export function middleware(request: NextRequest) {
   const locale = negotiateLocale(request);
   const url = request.nextUrl.clone();
   url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
-  return NextResponse.redirect(url);
+  const response = NextResponse.redirect(url);
+  response.headers.set("x-vizzoro-domain-debug", `${request.headers.get("x-fh-requested-host") ?? ""}|${request.headers.get("x-forwarded-host") ?? ""}|${request.headers.get("host") ?? ""}`);
+  return response;
 }
 
 export const config = {
