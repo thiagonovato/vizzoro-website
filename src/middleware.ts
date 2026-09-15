@@ -16,7 +16,7 @@ function negotiateLocale(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const host = (request.headers.get("host") ?? "").split(":")[0].toLowerCase();
+  const host = (request.headers.get("x-forwarded-host") ?? request.headers.get("host") ?? "").split(",")[0].split(":")[0].toLowerCase();
   const isHelpDomain = host === "help.vizzoro.com";
 
   const hasLocale = pathname.split("/")[1] && isLocale(pathname.split("/")[1]);
