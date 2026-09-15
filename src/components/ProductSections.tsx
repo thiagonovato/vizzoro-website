@@ -75,7 +75,7 @@ export default function ProductSections({ dict, lang }: { dict: Dictionary; lang
         <div className="integration-grid" aria-hidden="true" />
         <div className="relative mx-auto max-w-[1100px] px-5 text-center">
           <p className="eyebrow">{dict.integration.eyebrow}</p><h2 className="section-title mx-auto mt-5 max-w-4xl text-ink">{dict.integration.title}</h2><p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-ink/60">{dict.integration.subtitle}</p>
-          <div className="code-line mx-auto mt-10"><span>&lt;script</span> src=&quot;https://cdn.vizzoro.com/sdk.js&quot; <span>data-key</span>=&quot;vz_pub_••••••&quot;&gt;&lt;/script&gt;<span className="code-chip">{dict.integration.copy}</span></div>
+          <div className="code-line mx-auto mt-10"><span>&lt;script</span> src=&quot;https://vizzoro-app.web.app/sdk.js&quot; <span>data-key</span>=&quot;vz_pk_••••••&quot;&gt;&lt;/script&gt;<span className="code-chip">{dict.integration.copy}</span></div>
           <div className="mt-10 flex flex-wrap justify-center gap-3">{dict.integration.features.map((feature) => <span key={feature} className="feature-pill">✓ {feature}</span>)}</div>
         </div>
       </section>

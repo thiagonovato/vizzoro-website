@@ -16,13 +16,15 @@ function negotiateLocale(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const host = (request.headers.get("host") ?? "").split(":")[0].toLowerCase();
+  const isHelpDomain = host === "help.vizzoro.com";
 
   const hasLocale = pathname.split("/")[1] && isLocale(pathname.split("/")[1]);
   if (hasLocale) return NextResponse.next();
 
   const locale = negotiateLocale(request);
   const url = request.nextUrl.clone();
-  url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
+  url.pathname = `/${locale}${isHelpDomain && pathname === "/" ? "/docs" : pathname === "/" ? "" : pathname}`;
   return NextResponse.redirect(url);
 }
 
