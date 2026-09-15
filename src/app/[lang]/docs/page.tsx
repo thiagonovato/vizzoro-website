@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { docs } from "@/content/docs";
 import { getDictionary, isLocale, locales } from "@/dictionaries";
 
@@ -11,13 +12,13 @@ export default async function DocsPage({ params }: { params: Promise<{ lang: str
   if (!isLocale(lang)) notFound();
   const content = docs[lang];
   const dict = getDictionary(lang);
-  const sectionIds = ["start", "install", "sdk", "security", "api", "troubleshooting"];
+  const sectionIds = ["start", "install", "sdk", "security", "usage", "troubleshooting"];
 
   return <main className="docs-shell">
     <header className="docs-header">
-      <a className="docs-brand" href={`/${lang}`}>VIZZORO</a>
+      <a className="docs-brand" href={`/${lang}`}><Image src="/vizzoro-logo-v2.png" width={164} height={48} alt="Vizzoro" /></a>
       <nav className="docs-locale" aria-label={dict.localeSwitcher.label}>
-        {locales.map((locale) => <a key={locale} href={`/${locale}/docs`} className={locale === lang ? "docs-locale-active" : ""}>{dict.localeSwitcher[locale]}</a>)}
+        {locales.map((locale) => <a key={locale} href={`https://help.vizzoro.com/${locale}`} className={locale === lang ? "docs-locale-active" : ""}>{dict.localeSwitcher[locale]}</a>)}
       </nav>
     </header>
     <section className="docs-hero"><p className="eyebrow">{content.eyebrow}</p><h1>{content.title}</h1><p>{content.subtitle}</p></section>
@@ -28,7 +29,7 @@ export default async function DocsPage({ params }: { params: Promise<{ lang: str
         <section id="install"><h2>{content.install.title}</h2><p>{content.install.body}</p><pre><code>{content.install.code}</code></pre><p className="docs-note">{content.install.note}</p></section>
         <section id="sdk"><h2>{content.options.title}</h2><p>{content.options.body}</p><pre><code>{content.options.code}</code></pre><div className="docs-table">{content.options.rows.map((row) => <div key={row.name}><code>{row.name}</code><span>{row.type}</span><p>{row.description}</p></div>)}</div></section>
         <section id="security"><h2>{content.security.title}</h2><p>{content.security.body}</p><ul>{content.security.items.map((item) => <li key={item}>{item}</li>)}</ul></section>
-        <section id="api"><h2>{content.api.title}</h2><p>{content.api.body}</p>{content.api.items.map((item) => <article className="docs-api" key={item.path}><span>{item.method}</span><code>{item.path}</code><p>{item.body}</p></article>)}</section>
+        <section id="usage"><h2>{content.usage.title}</h2><p>{content.usage.body}</p>{content.usage.items.map((item) => <article className="docs-api" key={item.title}><h3>{item.title}</h3><p>{item.body}</p></article>)}</section>
         <section id="troubleshooting"><h2>{content.troubleshoot.title}</h2>{content.troubleshoot.items.map((item) => <details key={item.question}><summary>{item.question}</summary><p>{item.answer}</p></details>)}</section>
         <section className="docs-support"><h2>{content.support.title}</h2><p>{content.support.body}</p><a className="button-primary" href={`mailto:${dict.contact.email}`}>{content.support.link}</a></section>
       </div>

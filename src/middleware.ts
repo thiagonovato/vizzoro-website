@@ -20,11 +20,22 @@ export function middleware(request: NextRequest) {
   const isHelpDomain = host === "help.vizzoro.com";
 
   const hasLocale = pathname.split("/")[1] && isLocale(pathname.split("/")[1]);
+  if (isHelpDomain && pathname === "/") {
+    const locale = negotiateLocale(request);
+    const url = request.nextUrl.clone();
+    url.pathname = `/${locale}/docs`;
+    return NextResponse.rewrite(url);
+  }
+  if (isHelpDomain && hasLocale && pathname.split("/").length === 2) {
+    const url = request.nextUrl.clone();
+    url.pathname = `${pathname}/docs`;
+    return NextResponse.rewrite(url);
+  }
   if (hasLocale) return NextResponse.next();
 
   const locale = negotiateLocale(request);
   const url = request.nextUrl.clone();
-  url.pathname = `/${locale}${isHelpDomain && pathname === "/" ? "/docs" : pathname === "/" ? "" : pathname}`;
+  url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
   return NextResponse.redirect(url);
 }
 
